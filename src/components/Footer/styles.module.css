@@ -1,0 +1,12 @@
+.container {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: 4rem;
+}
+
+p {
+	text-align: center;
+	padding: 1rem;
+}
