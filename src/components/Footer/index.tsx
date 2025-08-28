@@ -1,10 +1,10 @@
-import style from './styles.module.css'
+import styles from './styles.module.css'
 
 export function Footer() {
   return(
-      <footer className={style.container}>
-        <p>Entenda a técnica pomodoro 🍅</p>
-        <p>Chronos Pomodoro &copy; 2025 - Feito com 💚</p>
+      <footer className={styles.footer}>
+        <a href=''>Entenda a técnica pomodoro 🍅</a>
+        <a href=''>Chronos Pomodoro &copy; {new Date().getFullYear()} - Feito com 💚</a>
       </footer>
   )
 }
