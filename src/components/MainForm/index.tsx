@@ -59,7 +59,7 @@ export function MainForm() {
 		<form onSubmit={handleCreateNewTask} className='form' action="">
 			<div className="formRow">
 				<DefaultInput
-				labelText='Task'
+				labelText='Task:'
 				id='meuInput'
 				type='text'
 				placeholder='Digite algo'

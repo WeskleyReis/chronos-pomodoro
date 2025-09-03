@@ -10,7 +10,7 @@ export function Footer() {
           href='/about-pomodoro/'>Entenda a técnica pomodoro 🍅
         </RouterLink>
         <a href='https://www.linkedin.com/in/weskleyreis/' target='_blank'>
-          Chronos Pomodoro &copy; {new Date().getFullYear()} - Feito por Weskley Reis
+          Chronos Pomodoro &copy; {new Date().getFullYear()} - Weskley Reis
         </a>
       </footer>
     </Container>

@@ -27,7 +27,7 @@ export function Cycles() {
 							key={nextCycle}
 							className={`${styles.cycleDot} ${styles[nextCycleType]}`}
 							aria-label={`Indicador de ciclo de ${cycleDescriptionMap[nextCycleType]}`}
-							title={`Indicador de ciclo de ${cycleDescriptionMap[nextCycleType]}`}
+							title={`Ciclo de ${cycleDescriptionMap[nextCycleType]}`}
 						></span>
 					)
 				})}
